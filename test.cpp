@@ -1,5 +1,4 @@
 ﻿#include<stdio.h>
-#include<string.h>
 int  main() {
 	char ch;
 	int char_count = 0;
@@ -21,10 +20,10 @@ int  main() {
 		}
 	}
 	printf("\n\n");
-	if (pra[0] == 'w') {
+	if (pra[1] == 'w') {
 		printf("word count=%d\n", word_count);
 	}
-	if (pra[0] == 'c') {
+	if (pra[1] == 'c') {
 		printf("char count=%d\n", char_count);
 	}
 	
